@@ -1,0 +1,10 @@
+# dataset path
+path: /data/war/model/RTDETR-main
+train: /data/war/dataset/NWPU/NWPU_YOLO/images/train
+val: /data/war/dataset/NWPU/NWPU_YOLO/images/val
+
+# number of classes
+nc: 10
+
+# class names
+names: ['airplane', 'ship', 'storage-tank', 'baseball-diamond', 'tennis-court', 'basketball-court','ground-track-field', 'harbor', 'bridge', 'vehicle']
